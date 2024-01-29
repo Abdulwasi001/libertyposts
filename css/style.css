@@ -1,0 +1,442 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+hr, p, a, h5, h4, h3, h2, h1 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 4.5rem;
+    font-family:  'Poppins', sans-serif;
+}
+main {
+    min-height: 30rem;
+}
+.heading {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+/* ===== head ad ===== */
+.head-ad {
+    margin-bottom: 10px;
+}
+.head-ad img {
+    width: 100%;
+    height: 90px;
+}
+@media (max-width: 768px) {
+    .head-ad img {
+        width: 100%;
+        height: 50px;
+    }
+}
+/* ===== navbar ===== */
+nav .navbar-brand img {
+    width: 200px;
+    height: 35px;
+}
+nav .navbar-collapse ul {
+    margin-left: 100px;
+}
+nav .navbar-collapse ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #000;
+}
+@media (max-width: 768px) {
+    nav .navbar-collapse ul {
+        margin-left: 5px;
+    }
+    nav .navbar-collapse ul li {
+        font-size: 18px;
+    }
+}
+/* ===== main (display posts) ===== */
+.displayPosts .posts {
+    margin: 0 0 10px 0;
+}
+.displayPosts .posts img {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+}
+.displayPosts .posts h4 a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.displayPosts .posts h4 a:hover {
+    text-decoration: underline;
+}
+.displayPosts .posts .poster i {
+    margin: 0 5px 0 0;
+}
+.displayPosts .posts .poster {
+    font-size: 12px;
+    color: gray;
+}
+.displayPosts .posts .poster span {
+    margin: 0 0 0 20px;
+}
+.displayPosts .posts p a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.displayPosts .posts p a:hover {
+    text-decoration: underline;
+}
+.displayPosts .ad {
+    margin: 10px 0 10px 0;
+}
+.displayPosts .ad img {
+    width: 100%;
+    height: 90px;
+}
+@media (max-width: 768px) {
+    .displayPosts .posts h4 a {
+        font-size: 14px;
+    }
+    .displayPosts .posts .poster {
+        display: none;
+    }
+    .displayPosts .posts p {
+        display: none;
+    }
+    .displayPosts .posts img {
+        width: 100%;
+        height: 100px;
+    }
+    .displayPosts .ad img {
+        width: 100%;
+        height: 50px;
+    }
+}
+/* ===== (right sidebar) ===== */
+.right-sidebar .trending-post {
+    margin: 10px 0 0px 0;
+}
+.right-sidebar .trending-post .posts {
+    margin: 0 0 5px 0;
+}
+.right-sidebar .trending-post .posts img {
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+}
+.right-sidebar .trending-post .posts h5 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.right-sidebar .trending-post .posts h5 a:hover {
+    text-decoration: underline;
+}
+.right-sidebar .ad {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right-sidebar .ad img {
+    width: 100%;
+    height: 250px;
+}
+@media (max-width: 768px) {
+    .right-sidebar .trending-post .posts h5 a {
+        font-size: 13px;
+    }
+    .right-sidebar .ad img {
+        width: 100%;
+        height: 250px;
+    }
+}
+/* ========== SOCIAL MEDIA ========== */
+.danger {background: rgb(255, 0, 0);}
+.blue {background: rgb(0, 0, 255);}
+.cyan {background: rgb(0, 217, 255);}
+.green {background: rgb(0, 128, 0);}
+.pink {background: rgb(255, 80, 211);}
+
+.socialmedia {
+    margin: 5px 0px 10px 0px;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+
+.sm {
+    margin-bottom: 3px;
+    padding: 5px 20px 5px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 13px;
+}
+.sm i {
+    margin-right: 10px;
+}
+.sm span {
+    float: right;
+}
+
+/*========== FOOTER ==========*/
+footer {
+    background: #dad5d5;
+    padding: 20px;
+    user-select: none;
+    margin-top: 15px;
+}
+footer img {
+    width: 100%;
+    height: 30px;
+}
+footer span {
+    font-size: 14px;
+    float: right;
+}
+footer span a {
+    text-decoration: none;
+    font-size: 900;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
+
+/*========== post page ==========*/
+.detailPost .post img{
+    width: 100%;
+    height: 400px;
+}
+.detailPost .post h3 {
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    font-size: 23px;
+    color: #000;
+}
+.detailPost .post .poster i {
+    margin: 0 5px 0 0;
+}
+.detailPost .post .poster {
+    font-size: 12px;
+    color: gray;
+}
+.detailPost .post .poster span {
+    margin: 0 20px 0 20px;
+}
+.detailPost .post p {
+    margin: 5px 0 0 0;
+    font-size: 17px;
+    color: #000;
+    text-align: justify;
+}
+.detailPost .ad {
+    margin: 10px 0 10px 0;
+}
+.detailPost .ad img {
+    width: 100%;
+    height: 90px;
+}
+@media (max-width: 768px) {
+    .detailPost .post img{
+        width: 100%;
+        height: 300px;
+    }
+    .detailPost .post h3 {
+        font-size: 18px;
+    }
+    .detailPost .post p {
+        font-size: 15px;
+    }
+    .detailPost .ad img {
+        width: 100%;
+        height: 50px;
+    }
+}
+/*========== comment section on post page ==========*/
+.comments-box,
+.comments-box .display-comments,
+.comments-box .comment-form-box {
+    padding: 10px;
+}
+.comments-box .display-comments .comment {
+    margin: 0 0 10px 0;
+}
+.comments-box .display-comments .comment .commenter {
+    font-size: 13px;
+    color: gray;
+}
+.comments-box .display-comments .comment .commenter i {
+    margin: 0 5px 0 0;
+}
+.comments-box .display-comments .comment .commenter span {
+    margin: 0 0 0 20px;
+}
+.comments-box .display-comments .comment p {
+    font-size: 15px;
+}
+.comments-box .comment-form-box {
+    padding: 10px;
+}
+
+/*========== user section ==========*/
+nav .d-flex span {
+    margin: 0 10px 0 0;
+    color: blueviolet;
+    font-size: 20px;
+}
+nav .d-flex a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav .d-flex a:hover {
+    color: #fff;
+    background: #000;
+}
+
+.left-sidebar a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 0px 5px 10px;
+    display: block;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    font-size: 17px;
+}
+.left-sidebar a:hover {
+    background: rgb(212, 209, 209);
+}
+.left-sidebar a i {
+    margin-right: 5px;
+}
+
+.profile .data-box {
+    border: 1px solid rgb(212, 209, 209);
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #000;
+}
+.profile .data-box label {
+    width: 30%;
+    text-align: right;
+    padding: 5px 30px 5px 0;
+    background: rgb(212, 209, 209);
+}
+.profile .data-box input {
+    border: 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+table thead {
+    font-size: 12px;
+}
+table tbody {
+    font-size: 15px;
+}
+table tbody span {
+    cursor: pointer;
+}
+table tbody span a {
+    color: green;
+}
+table tbody a {
+    color: red;
+}
+table tbody a:hover {
+    color: gray;
+}
+
+/*========== login section ==========*/
+.login-box {
+    margin: 2% auto;
+    width: 30%;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 30px 20px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
+    
+}
+.login-box .login-heading {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+.login-box .form-box {
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+}
+.login-box .form-box label {
+    width: 10%;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-right: 1px solid rgb(212, 209, 209);
+}
+.login-box .form-box input {
+    width: 88%;
+    border: 0;
+    outline: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px 0;
+}
+.login-box .show-pass input {
+    accent-color: #000;
+}
+
+.login-box .show-pass {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 10px 0;
+}
+.login-box .forget-pass {
+    background: rgb(4, 189, 4);
+    margin: 10px 0 0 0;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.login-box .forget-pass:hover {
+    background: green;
+}
+.login-box .forget-pass a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-box .forget-pass a:hover {
+    text-decoration: underline;
+}
+.login-box .openAccount {
+    text-align: center;
+    margin: 30px 0 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.login-box .openAccount a {
+    text-decoration: none;
+    color: #fff;
+}
+.login-box .openAccount a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .login-box {
+        width: 90%;
+    }
+}
